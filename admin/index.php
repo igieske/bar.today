@@ -10,6 +10,7 @@
      require_once("../models/instruments.php");
      require_once("../models/musicstyles.php");
 
+
      require_once("../models/functions.php");
 
      $link = db_connect();
