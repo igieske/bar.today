@@ -1,5 +1,5 @@
 <?php
-     ob_start(); // иначе при редиректе header("Location: ...") ошибка - повторная отправка заголовков. либо юзать <script>location.href="index.php";</script>;
+     ob_start(); //иначе при редиректе header("Location: ...") ошибка - повторная отправка заголовков. либо юзать <script>location.href="index.php";</script>;
      function idkfa(){};
      require_once("../database.php");
 
@@ -9,7 +9,6 @@
      require_once("../models/fellas.php");
      require_once("../models/instruments.php");
      require_once("../models/musicstyles.php");
-
 
      require_once("../models/functions.php");
 
