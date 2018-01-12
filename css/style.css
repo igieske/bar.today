@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400');
+
+body {
+     font-family: 'Noto Serif', sans-serif;
+     font-size: 13px;
+     color: #333;
+}
+
+a, a b {
+     color: #7d2bc3;
+}
+h1 {
+     font-size: 30px;
+}
+h2, h2 span {
+     font-size: 24px;
+}
+h3 {
+     font-size: 20px;
+     margin: 00px;
+}
+
+.clearfix:after {
+         content: "";
+         display: table;
+         clear: both;
+     }
+
+header div:first-child {
+     width: 80%;
+     background-color: #dfbbe3;
+}
+
+header div:last-child {
+     width: 20%;
+     background-color: #b99ebc;
+}
+
+header div {
+     padding: 13px 15px 15px 18px;
+     float: left;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     height: 70px;
+}
+
+header h1 {
+     margin: 0;
+}
+
+footer {
+     background-color: #b99ebc;
+     padding: 15px;
+     text-align: center;
+}
+
+hr {
+     color: #ccc;
+     background-color: #ccc;
+     border: 0px none;
+     height: 1px;
+     margin: 0;
+}
+
+.item-head {
+     padding: 0 9px;
+}
+.item-head h2 {
+     margin: 5px 0 0 0;
+}
+.item-head span {
+     font-size: 11px;
+     color: #aaa;
+}
+
+.item {
+     width: auto;
+     background-color: #f1f1f1;
+     padding: 4px 9px 6px 9px;
+     margin: 9px 0;
+     border-radius: 3px;
+}
+.item .name {
+     font-size: 15px;
+     font-weight: bold;
+}
+.item .cases {
+     text-align: center;
+     background-color: #b99ebc;
+     border-radius: 2px;
+     padding: 0 5px 2px 5px;
+     margin: 5px 0;
+}
+.item .case-name {
+     color: #fff;
+     text-decoration: none;
+     font-weight: normal;
+}
+.item .type {
+     padding: 0 4px 1px 4px;
+     font-size: 12px;
+     width: -webkit-fill-available;
+     display: inline-block;
+     text-align: center;
+     border-radius: 2px;
+}
+.item .type-name {
+     display: grid;
+     grid-template-columns: 1fr 34px;
+     grid-gap: 4px;
+}
+.item .type-name div {
+     padding: 1px 0;
+}
+
+.bgc1 { background-color: #b99ebc; }
+.bgc2 { background-color: #bc6bbf; }
+.bgc3 { background-color: #bf986b; }
+.bgc4 { background-color: #78bf6b; }
+
+.item .bgc1 { color: #f3e5f5; }
+.item .bgc2 { color: #fdd2ff; }
+.item .bgc3 { color: #ffe9d1; }
+.item .bgc4 { color: #dcffd5; }
+
+.admin-item {
+     
+}
+
+.admin-item a {
+     font-size: 12px;
+     color: #fff;
+     font-weight: normal;
+     background-color: #cecece;
+     padding: 0 4px 2px 4px;
+     text-decoration: none;
+     border-radius: 2px;
+     -webkit-transition: background-color 0.2s ease;
+     transition: background-color 0.2s ease;
+     
+}
+.admin-item a:hover {
+     background-color: #aaa;
+}
+
+.item img {
+     width: 100%;
+     padding-top: 6px;
+}
+
+.item p {
+     margin: 0;
+}
+
+#main-view {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-gap: 12px;
+}
+
+.case-item a {
+     font-size: 18px;
+     font-weight: bold;
+}
+.case-item img {
+     max-width: 400px;
+}
+
+.bar-item h2 span {
+     color: #333;
+     margin-bottom: 0;
+}
+.bar-item h3, .fella-item h3, .band-item h3 {
+     font-size: 13px;
+     color: #b99ebc;
+     margin: 0;
+}
+.bar-item h2 {
+     color: #b99ebc;
+     padding: 0;
+}
+.bar-item .motto {
+     display: block;
+     font-size: 17px;
+     margin-top: 4px;
+     font-weight: bold;
+}
+.bar-item .motto .quote {
+     font-weight: bold;
+     padding: 0;
+     color: #b99ebc;
+}
+.fella-item h2 {
+     color: #b99ebc;
+     padding: 0;
+}
+.fella-item h2 span {
+     color: #333;
+     margin-bottom: 0;
+}
+
+.band-item h2 {
+     margin-bottom: 0;
+}
+
+.band-item .motto {
+     display: block;
+     font-size: 17px;
+     margin-top: 4px;
+     font-weight: bold;
+}
+.band-item .motto .quote {
+     font-weight: bold;
+     padding: 0;
+     color: #b99ebc;
+}
+.instrument-item h2:first-letter, h3:first-letter {
+     text-transform: capitalize;
+}
+.instrument-item h3 span {
+     text-decoration: underline;
+}
+.musicstyle-item h2:first-letter, h3:first-letter {
+     text-transform: capitalize;
+}
+.musicstyle-item h3 span {
+     text-decoration: underline;
+}
+
+.bordered {
+     display: inline-block;
+     border: solid 2px #e2e2e2;
+     padding: 5px;
+     margin: 8px 0;
+}
+.addit-item .light {
+     border-width: 1px;
+}
+
+/* opening hours toggles */
+.button-toggle-round {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.button-toggle-round + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input.button-toggle-round + label {
+  margin: 1px 0;
+  padding: 2px;
+  width: 40px;
+  height: 20px;
+  background-color: #dddddd;
+  border-radius: 12px;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
+  float: left;
+
+}
+input.button-toggle-round + label:before,
+input.button-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+input.button-toggle-round + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
+}
+input.button-toggle-round + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 16px;
+  background-color: #dddddd;
+  border-radius: 8px;
+  -webkit-transition: margin 0.4s, background 0.4s;
+  transition: margin 0.4s, background 0.4s;
+}
+input.button-toggle-round:checked + label {
+  background-color: #b99ebc;
+}
+input.button-toggle-round:checked + label:after {
+  margin-left: 20px;
+  background-color: #b99ebc;
+}
+input.button-toggle-round + label + label {
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+.holyday { color: chocolate; }
+
+.opening-hours {
+     text-align: center;
+     display: inline-grid;
+     grid-template-columns: repeat(7, 1fr);
+     grid-gap: 4px;
+}
+.opening-hours div {
+     display: inline-grid;
+     background-color: #ebe6e6;
+     padding: 1px 2px;
+}
+.opening-hours div hr {
+     margin: 2px;
+     background-color: #cbbaba;
+}
