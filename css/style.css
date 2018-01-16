@@ -6,6 +6,10 @@ body {
      color: #333;
 }
 
+.main {
+	height: 400px;
+}
+
 a, a b {
      color: #7d2bc3;
 }
@@ -20,38 +24,12 @@ h3 {
      margin: 00px;
 }
 
-.clearfix:after {
-         content: "";
-         display: table;
-         clear: both;
-     }
-
-header div:first-child {
-     width: 80%;
-     background-color: #dfbbe3;
-}
-
-header div:last-child {
-     width: 20%;
-     background-color: #b99ebc;
-}
-
-header div {
-     padding: 13px 15px 15px 18px;
-     float: left;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
-     height: 70px;
-}
-
-header h1 {
-     margin: 0;
-}
-
 footer {
-     background-color: #b99ebc;
-     padding: 15px;
+     background-color: #343a40;
      text-align: center;
+	color: #bfbfbf;
+	padding: 15px 15px;
+	width: 100%;
 }
 
 hr {
